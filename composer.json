@@ -1,0 +1,15 @@
+{
+    "name": "hebe/lib",
+    "description": "A Simple Library For Laravel",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hebe\\Lib\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
